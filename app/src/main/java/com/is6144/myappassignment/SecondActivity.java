@@ -15,9 +15,6 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.review);
 
 
-
-
-
         Book book1 = new Book("The Shining", 1);
         Book book2 = new Book("Animal Farm", 2);
         Book book3 = new Book("Jane Eyre", 3);
