@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/tView3"
         android:layout_width="179dp"
-        android:layout_height="39dp"
+        android:layout_height="45dp"
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
         android:text="TextView"
@@ -31,11 +31,16 @@
 
     <Button
         android:id="@+id/item_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
         android:layout_marginTop="12dp"
         android:backgroundTint="#F80A0A"
         android:text="Select"
+        android:background="@drawable/edit"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
         app:layout_constraintEnd_toStartOf="@+id/tView3"
         app:layout_constraintHorizontal_bias="0.324"
         app:layout_constraintStart_toStartOf="parent"
